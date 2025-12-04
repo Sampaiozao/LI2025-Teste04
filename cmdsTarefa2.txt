@@ -1,0 +1,154 @@
+    1  pwd
+    2  mkdir -v dir1
+    3  cd dir1
+    4  touch file1.txt
+    5  ls
+    6  echo "Diogo Sampaio" >> file1.txt
+    7  echo "112641" >> file1.txt
+    8  echo "2 outubro" >> file1.txt
+    9  cat file1.txt
+   10  exit
+   11  sudo apt update
+   12  sudo update -y
+   13  sudo apt upgrade -y
+   14  sudo apt install apache2 -y
+   15  sudo systemctl status apache2
+   16  sudo systemctl start apache2
+   17  sudo systemctl enable apache2
+   18  exit
+   19  git clone https://github.com/Sampaiozao/html1
+   20  cd /var/www/html/
+   21  ls
+   22  vi inndex
+   23  vi index
+   24  ls
+   25  vi index.html
+   26  cd
+   27  ls
+   28  cd dir1
+   29  ls
+   30  cat file1.txt
+   31  cd
+   32  sudo git clone https://github.com/Sampaiozao/html1
+   33  ls -all
+   34  cd /var/www/html/
+   35  sudo git clone https://github.com/Sampaiozao/html1
+   36  ls -all
+   37  cat html1
+   38  sudo rmdir html1
+   39  sudo rmdir -r html1
+   40  rmdir --help
+   41  sudo rmdir html1
+   42  cd html1
+   43  ls
+   44  sudo rm index.html
+   45  ls
+   46  sudo rm README.md 
+   47  ls
+   48  cs ..
+   49  cd ..
+   50  sudo rmdir html1
+   51  cd html1
+   52  ls
+   53  ls -all
+   54  cd
+   55  rm -r html1
+   56  ls -all
+   57  cd /var/www/html
+   58  ls
+   59  cd
+   60  sudo s1
+   61  s
+   62  pwd
+   63  mkdir teste
+   64  cd teste
+   65  pwd
+   66  git clone https://github.com/Sampaiozao/LI2025-Teste03
+   67  cat
+   68  ls 
+   69  cd LI2025-Teste03
+   70  ls
+   71  cd ..
+   72  cd LI2025-Teste03
+   73  mkdir A112641
+   74  cd A112641
+   75  echo " Teste de LI 2025/2026" > README.md
+   76  ls
+   77  cd ..
+   78  git add main .
+   79  git add .
+   80  git commit -m "2ª tarefa concluída"
+   81  git push
+   82  git pull origin main
+   83  cp index.html disciplinas.html
+   84  ls
+   85  git add .
+   86  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+   87  git push
+   88  git pull main origin
+   89  git pull origin main
+   90  history > meusComandosAzure.txt
+   91  cat meusComandosAzure.txt
+   92  git add .
+   93  git commit -m "atualizar"
+   94  git push
+   95  git pull origin main
+   96  git push
+   97  git pull origin main
+   98  exit
+   99  ls
+  100  cd teste
+  101  ls
+  102  cd LI2025-Teste03
+  103  ls
+  104  git add .
+  105  git commit -m "d2"
+  106  git push
+  107  git pull origin main
+  108  git config pull.rebase false
+  109  git pull origin main
+  110  git add .
+  111  git commit -m "ds"
+  112  git push
+  113  ls
+  114  exit
+  115  pwd
+  116  git clone https://github.com/Sampaiozao/LI2025-Teste03
+  117  ls
+  118  cd LI2025-Teste03
+  119  mkdir A112641
+  120  LS
+  121  ls
+  122  touch README.md
+  123  ls
+  124  echo "Teste de LI 2025/2026" > README.md
+  125  git add .
+  126  git commit -m "2ª tarefa concluida"
+  127  git push origin main
+  128  git pull
+  129  ls
+  130  cp index.html disciplinas.html
+  131  ls
+  132  git add .
+  133  git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+  134  git push origin main
+  135  git pull origin main
+  136  history > meusComandosAzure.txt
+  137  cat meusComandosAzure.txt
+  138  git add . && git commit -m "hisotry azure" && git push origin main
+  139  pwd
+  140  ls
+  141  git clone https://github.com/Sampaiozao/LI2025-Teste04
+  142  cd LI2025-Teste04
+  143  mkdir js css
+  144  ls
+  145  cd js
+  146  echo "//ficheiro de script" > script.js
+  147  ls
+  148  cd ..
+  149  cd css
+  150  touch style.css
+  151  ls
+  152  cd ..
+  153  pwd
+  154  history > cmdsTarefa2.txt
