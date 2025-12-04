@@ -10,23 +10,36 @@
     <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-10 col-sm-8 col-md-3">
-          <form>
+          <form class="needs-validation" novalidate>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email"
+              <input
+                type="email"
                 class="form-control"
                 id="email"
+                name="email"
                 placeholder="Email"
+                required
               />
+              <div class="invalid-feedback">
+                Por favor, forneça um endereço de email válido.
+              </div>
             </div>
 
             <div class="mb-3">
               <label for="assunto" class="form-label">Assunto</label>
-              <input type="text"
+              <input
+                type="text"
                 class="form-control"
                 id="assunto"
+                name="assunto"
                 placeholder="Assunto"
+                required
               />
+              <div class="valid-feedback">perfeito!</div>
+              <div class="invalid-feedback">
+                Por favor, escreva um assunto.
+              </div>
             </div>
 
             <div class="mb-3">
@@ -34,19 +47,26 @@
               <textarea
                 class="form-control"
                 id="mensagem"
+                name="mensagem"
                 rows="4"
                 placeholder="Mensagem"
+                required
               ></textarea>
+              <div class="invalid-feedback">
+                Por favor, escreva uma mensagem.
+              </div>
             </div>
 
-            <div class="mb-3">
+            <div class="d-flex">
               <button type="submit" class="btn btn-primary">Enviar</button>
-              <button type="reset" class="btn btn-secondary ms-5">Cancelar</button>
+              <button type="reset" class="btn btn-secondary ms-auto">
+                Cancelar
+              </button>
             </div>
           </form>
         </div>
       </div>
     </div>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
