@@ -1,0 +1,38 @@
+NOME: Diogo Santos Sampaio
+NMEC: 112641
+
+pwd
+
+ 1 documents
+   2 cd documents
+   3 git clone https://github.com/Sampaiozao/LI2025-Teste04
+   4 cd LI2025-Teste04
+   5 git add .
+   6 git commit -m "3ª tarefa concluída"
+   7 git push
+   8 git add .
+   9 git commit -m "4ª tarefa"
+  10 git push
+  11 git add .
+  12 git commit -m "5ª tarefa cumprida"
+  13 git push
+
+ 139  pwd
+  140  ls
+  141  git clone https://github.com/Sampaiozao/LI2025-Teste04
+  142  cd LI2025-Teste04
+  143  mkdir js css
+  144  ls
+  145  cd js
+  146  echo "//ficheiro de script" > script.js
+  147  ls
+  148  cd ..
+  149  cd css
+  150  touch style.css
+  151  ls
+  152  cd ..
+  153  pwd
+  154  history > cmdsTarefa2.txt
+  155  git add .
+  156  git commit -m "2ª tarefa concluída: pastas js e css criadas."
+  157  git push
